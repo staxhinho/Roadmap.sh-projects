@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --back-color: #282a36;
+    --text-color: #f8f8f2;
+    --highlight-color: #bd93f9;
+}
+
+.whitemode {
+    --back-color: #fff;
+    --text-color: black;
+    --highlight-color: #0800ff;
+}
+
+body {
+    background-color: var(--back-color);
+}
+
+a {
+    color: var(--highlight-color);
+    font-family: "Poppins", serif;
+}
+
+p {
+    color: var(--text-color);
+    font-family: "Poppins", serif;
+}
+
+h1 {
+    color: var(--text-color);
+    font-family: "Poppins", serif;
+}
+
+li {
+    color: var(--text-color);
+}
+
+header {
+    height: 40vh;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.middle-header {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 15%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 20%;
+}
+
+aside ul {
+    list-style-type: none
+}
+
+.center{
+    width: 50%;
+    height: 100%;
+}
+
+.education {
+    width: 30%;
+}
+
+.center article {
+    height: 20vh;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+.rev-bottom {
+    margin-left: 40px;
+}
+
+.reviews {
+    display: flex;
+    gap: 20px;
+}
+
+.review {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    padding: 15px;
+    border: 2px solid var(--text-color);
+}
+
+#theme-switch {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--back-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#theme-switch svg {
+    fill: var(--text-color);
+}
+
+#theme-switch svg:last-child {
+    display: none;
+}
+
+.whitemode #theme-switch svg:first-child{
+    display: none;
+}
+
+.whitemode #theme-switch svg:last-child {
+    display: block;
+}
