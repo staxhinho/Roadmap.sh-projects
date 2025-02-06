@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 40vh;
+    border: 2px solid;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 15%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+aside {
+    border: 2px solid;
+}
+
+article {
+    border: 2px solid;
+}
+
+main {
+    display: flex;
+    height: 40vh;
+}
+
+aside {
+    width: 20%;
+    height: 40vh;
+}
+
+aside h1 {
+    text-align: center;
+}
+
+aside ul {
+    list-style-type: none
+}
+
+.center{
+    width: 50%;
+    height: 100%;
+}
+
+.education {
+    width: 30%;
+    height: 40vh;
+}
+
+.center article {
+    height: 20vh;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+}
