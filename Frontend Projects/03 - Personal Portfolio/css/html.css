@@ -7,8 +7,8 @@
 }
 
 .whitemode {
-    --back-color: #fff;
-    --text-color: black;
+    --back-color: #f8f8f2;
+    --text-color: #2e2e2e;
     --highlight-color: #0800ff;
 }
 
@@ -111,9 +111,12 @@ footer {
     gap: 20px;
 }
 
+.review div {
+    width: 241.44px;
+    height: 207px;
+}
+
 .review {
-    width: fit-content;
-    height: fit-content;
     border-radius: 25px;
     padding: 15px;
     border: 2px solid var(--text-color);
@@ -144,4 +147,111 @@ footer {
 
 .whitemode #theme-switch svg:last-child {
     display: block;
+}
+
+@media (max-width: 750px) {
+    body {
+        margin: 0px;
+    }
+
+    header {
+        height: 40vh;
+        margin-top: 25px;
+    }
+    
+    .upper-header {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .middle-header {
+        margin-top: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .middle-header h1 {
+        margin-bottom: 0px;
+    }
+    
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 15%;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .logo {
+        display: block;
+        gap: 0px;
+        align-items: center;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    main {
+        display: block;
+        border-top: 2px solid var(--text-color);
+        border-bottom: 2px solid var(--text-color);
+    }
+
+    aside {
+        width: 100%;
+        text-align: center;
+    }
+
+    aside ul {
+        padding-left: 0px;
+    }
+
+    aside ul li{
+        border-top: 2px solid var(--text-color);
+    }
+
+    .center{
+        width: 100%;
+        height: 100%;
+        border-top: 2px solid var(--text-color);
+        border-bottom: 2px solid var(--text-color);
+    }
+    
+    .education {
+        width: 100%;
+    }
+
+    .wk {
+        border-bottom: 2px solid var(--text-color);
+    }
+
+    .review div {
+        width: 241.44px;
+        height: 207px;
+    }
+
+    .reviews {
+        display: block;
+        padding-right: 40px;
+    }
+
+    .rev-txt br {
+        display: none;
+    }
+
+    .osw {
+        padding-right: 20px;
+    }
+
+    .center article {
+        height: fit-content;
+        padding-bottom: 6px;
+    }
 }
