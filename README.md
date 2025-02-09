@@ -15,4 +15,5 @@ This repository contains front-end projects built following the <a href="https:/
   <li><a></a></li>
   <li><a></a></li>
   <li><a href="https://roadmap.sh/projects/simple-tabs">Tabs</a></li>
+  <li><a href="https://roadmap.sh/projects/cookie-consent">Cookie Consent</a></li>
 </ol>
