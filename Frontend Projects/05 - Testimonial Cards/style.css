@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 100vh;           /* Full viewport height */
+    margin: 0; 
+}
+
+main {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 10px 0px 10px;
+    font-family: "Roboto", serif;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.top {
+    display: flex;
+    gap: 30px;
+}
+
+.darren-review {
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    padding: 20px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.darren-review p {
+    color: #eee;
+    margin: 0px;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 13px solid #1e1e1e;
+    margin-left: 28px;
+}
+
+.top-profile {
+    display: flex;
+}
+
+.top img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.darren-watkins img{
+    margin: 5px;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 2px;
+    margin-left: 5px;
+}
+
+.profile-text p{
+    margin: 0px;
+    
+}
+
+.jfd {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.dw {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.susan-monroe {
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 22px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.susan-monroe p {
+    margin: 0px;
+}
+
+.middle {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.jackie-review {
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    padding: 30px;
+    width: 100%;
+}
+
+.material-symbols-outlined {
+    color: #f2c001;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.jm {
+    font-size: 26px;
+    margin: 16px 0px 16px 0px;
+    color: #eee;
+}
+
+.em {
+    color: #757575;
+    margin: 0px;
+}
+
+.rev {
+    color: #eee;
+    margin-bottom: 0px;
+}
+
+.bottom {
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.bottom p {
+    margin: 0px;
+    text-align: center;
+}
+
+.msg {
+    text-align: center;
+}
+
+.selector {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.selector p {
+    font-weight: 500;
+}
+
+.selector-img {
+    display: flex;
+    gap: 15px;
+}
+
+.bottom img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.dwb {
+    font-size: 20px;
+    font-weight: 400;
+}
